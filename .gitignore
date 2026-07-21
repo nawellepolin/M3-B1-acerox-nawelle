@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Données (formatrice fournit via Discord mardi 9h)
+data/*.csv
+data/*.json
+data/*.log
+data/*.zip
+!data/.gitkeep
+# Jeu jouet « fusion + provenance » (versionné : l'apprenant en a besoin dès l'ouverture)
+!data/capteurs_site_A.csv
+!data/capteurs_site_B.csv
